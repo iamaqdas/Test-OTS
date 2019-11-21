@@ -1,0 +1,37 @@
+{
+  "name": "test-ots",
+  "version": "1.0.0",
+  "description": "Basic MEAN Stack Application with all basic authentication for user and products management",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "md5": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamaqdas/Test-OTS.git"
+  },
+  "keywords": [
+    "basic",
+    "MEAN Stack",
+    "MEAN stack authentication",
+    "authorization"
+  ],
+  "author": "Shaikh Mohammed Aqdas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamaqdas/Test-OTS/issues"
+  },
+  "homepage": "https://github.com/iamaqdas/Test-OTS#readme"
+}
